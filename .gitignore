@@ -1,4 +1,5 @@
 node_modules
+dist
 tsc_output.txt
 .env
 pnpm-lock.yaml
