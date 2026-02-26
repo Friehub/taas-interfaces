@@ -7,6 +7,10 @@
     "publishConfig": {
         "access": "public"
     },
+    "scripts": {
+        "build": "tsc",
+        "prepare": "pnpm run build"
+    },
     "dependencies": {
         "zod": "^3.22.4",
         "axios": "^1.7.9",
