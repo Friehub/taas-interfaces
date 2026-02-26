@@ -9,7 +9,7 @@
     },
     "scripts": {
         "build": "tsc",
-        "prepare": "pnpm run build"
+        "prepare": "tsc"
     },
     "dependencies": {
         "zod": "^3.22.4",
