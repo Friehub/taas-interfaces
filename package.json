@@ -1,0 +1,18 @@
+{
+    "name": "@friehub/taas-interfaces",
+    "version": "1.0.0",
+    "description": "Public TaaS Interfaces and Base Classes for Truth Adapters",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "publishConfig": {
+        "access": "public"
+    },
+    "dependencies": {
+        "zod": "^3.22.4",
+        "axios": "^1.7.9",
+        "https-proxy-agent": "^7.0.2"
+    },
+    "devDependencies": {
+        "typescript": "^5.3.3"
+    }
+}
