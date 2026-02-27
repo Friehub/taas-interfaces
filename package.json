@@ -9,7 +9,7 @@
         "url": "https://github.com/Friehub/taas-interfaces.git"
     },
     "publishConfig": {
-        "registry": "https://npm.pkg.github.com"
+        "access": "public"
     },
     "scripts": {
         "build": "tsc",
